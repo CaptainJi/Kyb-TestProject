@@ -18,7 +18,7 @@ report_dir = '../reports'
 discover = unittest.defaultTestLoader.discover(test_dir, pattern='testLogin.py')
 
 # 获取当前时间
-now = time.strftime('%Y' + '年' + '%m' + '月' + '%d' + '日' '%H' + '点' + '%M' + '分' + '%S' + '秒')
+now = time.strftime('%Y' + '年' + '%m' + '月' + '%d' + '日' + ' %H' + '点' + '%M' + '分' + '%S' + '秒')
 
 # 设置测试报告位置及名称格式
 report_name = report_dir + '/' + now + 'TestReport.html'

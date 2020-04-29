@@ -52,7 +52,7 @@ def appium_desired():
 def close_appium():
     host = data['host']
     port = data['port']
-    release_port(host,port)
+    release_port(host, port)
 # 构建进程组
 # desired_process = []
 # # 多进程启动测试

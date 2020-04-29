@@ -2933,3 +2933,1004 @@
 2020-04-28 13:02:46,781 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 10820 命令关闭Appium服务
 2020-04-28 13:02:46,794 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
 2020-04-28 13:02:46,794 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月28日13点01分36秒TestReport.html
+2020-04-29 12:38:52,693 run.py[line:33] INFO 测试开始
+2020-04-29 12:38:52,708 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 12:38:53,712 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 12:38:53,712 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 12:38:53,725 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 12:39:03,902 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 12:39:04,908 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 12:39:04,908 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 12:39:04,918 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 12:39:11,644 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 12:39:11,646 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 12:39:11,646 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 12:41:33,803 run.py[line:33] INFO 测试开始
+2020-04-29 12:41:33,804 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 12:41:33,805 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 12:41:33,805 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 12:41:36,063 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 12:41:36,064 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 12:41:36,065 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 12:41:38,293 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 12:41:38,294 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 12:41:38,295 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 12:41:40,480 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 12:41:40,604 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       12396
+  TCP    127.0.0.1:4723         127.0.0.1:55170        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:55185        FIN_WAIT_2      12396
+  TCP    127.0.0.1:4723         127.0.0.1:55197        FIN_WAIT_2      12396
+  TCP    127.0.0.1:55162        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:55164        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:55169        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:55176        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:55181        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:55184        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:55185        127.0.0.1:4723         CLOSE_WAIT      10704
+  TCP    127.0.0.1:55190        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:55192        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:55196        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:55197        127.0.0.1:4723         CLOSE_WAIT      10704
+  TCP    127.0.0.1:55202        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 12:41:40,604 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 12396 命令关闭Appium服务
+2020-04-29 12:41:40,613 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 12:41:40,613 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日12点41分33秒TestReport.html
+2020-04-29 12:42:13,508 run.py[line:33] INFO 测试开始
+2020-04-29 12:42:13,508 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 12:42:14,512 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 12:42:14,512 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 12:42:14,530 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 12:42:38,768 testLogin.py[line:14] INFO 测试登录第一个账户
+2020-04-29 12:42:38,769 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 12:42:38,780 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 12:42:39,692 commonFun.py[line:27] INFO 取消升级
+2020-04-29 12:42:39,739 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 12:42:40,023 commonFun.py[line:37] INFO 跳过
+2020-04-29 12:42:40,491 loginView.py[line:28] INFO 开始登录
+2020-04-29 12:42:40,491 loginView.py[line:29] INFO 用户名：klegc2018
+2020-04-29 12:42:43,637 loginView.py[line:31] INFO 密码：Texyf2018
+2020-04-29 12:42:45,606 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 12:42:46,620 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 12:42:46,621 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 12:42:48,987 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 12:42:52,804 loginView.py[line:59] INFO 登陆成功
+2020-04-29 12:42:52,806 commonFun.py[line:97] INFO 获取“登陆成功”屏幕截图
+2020-04-29 12:42:53,258 loginView.py[line:65] INFO 退出登录
+2020-04-29 12:42:57,712 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 12:43:00,946 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 12:43:00,949 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 12:43:00,949 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 12:43:23,128 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 12:43:23,128 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 12:43:23,128 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 12:43:24,136 commonFun.py[line:27] INFO 取消升级
+2020-04-29 12:43:24,178 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 12:43:24,463 commonFun.py[line:37] INFO 跳过
+2020-04-29 12:43:24,956 loginView.py[line:28] INFO 开始登录
+2020-04-29 12:43:24,956 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 12:43:26,769 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 12:43:28,734 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 12:43:29,827 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 12:43:29,828 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 12:43:32,749 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 12:43:37,772 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 12:43:37,772 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 12:43:38,212 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 12:43:41,443 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 12:43:41,449 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 12:43:41,449 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 12:44:03,423 testLogin.py[line:34] INFO 测试登录第三个账户
+2020-04-29 12:44:03,424 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 12:44:03,425 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 12:44:04,820 commonFun.py[line:27] INFO 取消升级
+2020-04-29 12:44:04,906 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 12:44:05,339 commonFun.py[line:37] INFO 跳过
+2020-04-29 12:44:05,718 loginView.py[line:28] INFO 开始登录
+2020-04-29 12:44:05,718 loginView.py[line:29] INFO 用户名：klegc2020
+2020-04-29 12:44:09,976 loginView.py[line:31] INFO 密码：Texyf2020
+2020-04-29 12:44:11,867 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 12:44:12,942 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 12:44:12,943 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 12:44:15,884 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 12:44:20,949 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 12:44:20,950 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 12:44:21,418 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:03:14,312 run.py[line:33] INFO 测试开始
+2020-04-29 13:03:14,313 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:03:14,314 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:03:14,314 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:03:35,905 testLogin.py[line:14] INFO 测试登录第一个账户
+2020-04-29 13:03:35,905 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:03:35,909 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:03:37,283 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:03:37,315 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:03:37,599 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:03:38,082 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:03:38,083 loginView.py[line:29] INFO 用户名：klegc2018
+2020-04-29 13:03:39,940 loginView.py[line:31] INFO 密码：Texyf2018
+2020-04-29 13:03:41,985 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:03:43,021 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:03:43,021 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:03:45,362 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:03:48,482 loginView.py[line:59] INFO 登陆成功
+2020-04-29 13:03:48,482 commonFun.py[line:97] INFO 获取“登陆成功”屏幕截图
+2020-04-29 13:03:48,938 loginView.py[line:65] INFO 退出登录
+2020-04-29 13:03:53,998 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:03:57,194 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:03:57,200 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:03:57,200 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:04:19,006 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 13:04:19,007 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:04:19,008 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:04:20,762 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:04:20,795 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:04:21,539 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:04:21,649 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:04:21,650 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 13:04:24,136 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 13:04:26,133 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:04:28,166 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:04:28,167 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:04:31,138 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:04:36,185 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 13:04:36,186 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 13:04:36,626 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:04:39,889 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:04:39,894 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:04:39,895 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:05:01,911 testLogin.py[line:34] INFO 测试登录第三个账户
+2020-04-29 13:05:01,912 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:05:01,913 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:05:02,989 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:05:03,016 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:05:03,442 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:05:03,826 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:05:03,827 loginView.py[line:29] INFO 用户名：klegc2020
+2020-04-29 13:05:06,273 loginView.py[line:31] INFO 密码：Texyf2020
+2020-04-29 13:05:08,289 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:05:09,330 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:05:09,331 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:05:12,302 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:05:17,319 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 13:05:17,320 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 13:05:17,754 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:06:51,749 run.py[line:33] INFO 测试开始
+2020-04-29 13:06:51,750 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:06:51,751 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:06:51,751 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:07:12,793 testLogin.py[line:14] INFO 测试登录第一个账户
+2020-04-29 13:07:12,793 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:07:12,796 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:07:13,735 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:07:13,766 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:07:14,042 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:07:14,520 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:07:14,520 loginView.py[line:29] INFO 用户名：klegc2018
+2020-04-29 13:07:16,755 loginView.py[line:31] INFO 密码：Texyf2018
+2020-04-29 13:07:18,743 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:07:19,794 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:07:19,794 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:07:22,180 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:07:25,200 loginView.py[line:59] INFO 登陆成功
+2020-04-29 13:07:25,200 commonFun.py[line:97] INFO 获取“登陆成功”屏幕截图
+2020-04-29 13:07:25,591 loginView.py[line:65] INFO 退出登录
+2020-04-29 13:07:30,827 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:07:33,973 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:07:33,979 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:07:33,979 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:07:55,863 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 13:07:55,864 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:07:55,864 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:07:56,660 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:07:56,693 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:07:57,451 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:07:57,484 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:07:57,485 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 13:07:59,803 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 13:08:01,858 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:08:02,851 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:08:02,851 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:08:05,845 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:08:10,883 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 13:08:10,883 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 13:08:11,334 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:08:14,541 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:08:14,543 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:08:14,544 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:08:36,507 testLogin.py[line:34] INFO 测试登录第三个账户
+2020-04-29 13:08:36,507 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:08:36,508 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:08:37,413 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:08:37,447 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:08:37,592 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:08:38,236 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:08:38,236 loginView.py[line:29] INFO 用户名：klegc2020
+2020-04-29 13:08:39,969 loginView.py[line:31] INFO 密码：Texyf2020
+2020-04-29 13:08:41,973 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:08:42,993 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:08:42,993 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:08:45,005 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:08:50,016 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 13:08:50,016 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 13:08:50,453 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:08:53,653 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 13:08:53,737 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       1004
+  TCP    127.0.0.1:4723         127.0.0.1:57992        ESTABLISHED     1004
+  TCP    127.0.0.1:4723         127.0.0.1:58197        ESTABLISHED     1004
+  TCP    127.0.0.1:4723         127.0.0.1:58399        ESTABLISHED     1004
+  TCP    127.0.0.1:57992        127.0.0.1:4723         ESTABLISHED     12464
+  TCP    127.0.0.1:58190        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:58193        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:58196        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:58197        127.0.0.1:4723         ESTABLISHED     12464
+  TCP    127.0.0.1:58389        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:58395        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:58398        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:58399        127.0.0.1:4723         ESTABLISHED     12464
+  TCP    127.0.0.1:58595        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 13:08:53,737 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 1004 命令关闭Appium服务
+2020-04-29 13:08:53,743 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 13:08:53,743 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日13点06分51秒TestReport.html
+2020-04-29 13:20:37,747 run.py[line:33] INFO 测试开始
+2020-04-29 13:20:37,747 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:20:38,750 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:20:38,750 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 13:20:38,757 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:21:03,359 testLogin.py[line:14] INFO 测试登录第一个账户
+2020-04-29 13:21:03,359 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:21:03,361 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:21:04,338 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:21:04,369 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:21:04,802 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:21:05,139 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:21:05,139 loginView.py[line:29] INFO 用户名：klegc2018
+2020-04-29 13:21:19,743 run.py[line:33] INFO 测试开始
+2020-04-29 13:21:19,744 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:21:19,745 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:21:19,745 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:21:42,044 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:21:42,045 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:21:42,046 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:22:04,402 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:22:04,408 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:22:04,408 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:22:26,585 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 13:22:26,667 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       9320
+  TCP    127.0.0.1:4723         127.0.0.1:59920        TIME_WAIT       0
+  TCP    127.0.0.1:4723         127.0.0.1:59951        FIN_WAIT_2      9320
+  TCP    127.0.0.1:4723         127.0.0.1:59989        FIN_WAIT_2      9320
+  TCP    127.0.0.1:59911        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:59914        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:59919        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:59945        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:59948        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:59950        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:59951        127.0.0.1:4723         CLOSE_WAIT      13060
+  TCP    127.0.0.1:59980        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:59983        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:59987        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:59989        127.0.0.1:4723         CLOSE_WAIT      13060
+  TCP    127.0.0.1:60009        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 13:22:26,667 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 9320 命令关闭Appium服务
+2020-04-29 13:22:26,674 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 13:22:26,674 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日13点21分19秒TestReport.html
+2020-04-29 13:23:51,591 run.py[line:33] INFO 测试开始
+2020-04-29 13:23:51,592 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:23:52,595 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:23:52,595 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 13:23:52,609 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:24:15,212 testLogin.py[line:14] INFO 测试登录第一个账户
+2020-04-29 13:24:15,212 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:24:15,214 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:24:16,058 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:24:16,091 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:24:16,838 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:24:16,889 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:24:16,889 loginView.py[line:29] INFO 用户名：klegc2018
+2020-04-29 13:24:18,546 loginView.py[line:31] INFO 密码：Texyf2018
+2020-04-29 13:24:20,518 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:24:21,603 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:24:21,603 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:24:24,885 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:24:28,076 loginView.py[line:59] INFO 登陆成功
+2020-04-29 13:24:28,076 commonFun.py[line:97] INFO 获取“登陆成功”屏幕截图
+2020-04-29 13:24:28,563 loginView.py[line:65] INFO 退出登录
+2020-04-29 13:24:32,634 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:24:35,823 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:24:35,828 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:24:35,829 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:24:57,729 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 13:24:57,729 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:24:57,730 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:24:58,701 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:24:58,738 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:24:59,048 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:24:59,513 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:24:59,513 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 13:25:02,657 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 13:25:04,679 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:25:05,720 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:25:05,720 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:25:08,655 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:25:12,748 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 13:25:12,749 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 13:25:13,215 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:25:16,433 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:25:16,438 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:25:16,439 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:25:38,281 testLogin.py[line:34] INFO 测试登录第三个账户
+2020-04-29 13:25:38,282 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:25:38,282 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:25:39,237 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:25:39,279 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:25:40,034 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:25:40,079 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:25:40,079 loginView.py[line:29] INFO 用户名：klegc2020
+2020-04-29 13:25:41,760 loginView.py[line:31] INFO 密码：Texyf2020
+2020-04-29 13:25:43,804 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:25:44,834 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:25:44,834 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:25:47,801 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:25:52,818 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 13:25:52,819 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 13:25:53,249 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:25:56,450 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 13:25:56,535 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       12540
+  TCP    127.0.0.1:4723         127.0.0.1:60137        ESTABLISHED     12540
+  TCP    127.0.0.1:4723         127.0.0.1:60336        ESTABLISHED     12540
+  TCP    127.0.0.1:4723         127.0.0.1:60531        ESTABLISHED     12540
+  TCP    127.0.0.1:60137        127.0.0.1:4723         ESTABLISHED     10940
+  TCP    127.0.0.1:60326        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:60332        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:60335        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:60336        127.0.0.1:4723         ESTABLISHED     10940
+  TCP    127.0.0.1:60522        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:60525        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:60530        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:60531        127.0.0.1:4723         ESTABLISHED     10940
+  TCP    127.0.0.1:60731        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 13:25:56,536 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 12540 命令关闭Appium服务
+2020-04-29 13:25:56,541 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 13:25:56,542 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日13点23分51秒TestReport.html
+2020-04-29 13:29:36,056 run.py[line:33] INFO 测试开始
+2020-04-29 13:29:36,056 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:29:37,058 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:29:37,058 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 13:29:37,073 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:30:00,956 testLogin.py[line:14] INFO 测试登录第一个账户
+2020-04-29 13:30:00,956 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:30:00,957 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:30:01,895 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:30:01,924 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:30:02,216 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:30:02,671 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:30:02,671 loginView.py[line:29] INFO 用户名：klegc2018
+2020-04-29 13:30:05,856 loginView.py[line:31] INFO 密码：Texyf2018
+2020-04-29 13:30:07,738 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:30:08,773 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:30:08,774 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:30:11,111 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:30:14,905 loginView.py[line:59] INFO 登陆成功
+2020-04-29 13:30:14,905 commonFun.py[line:97] INFO 获取“登陆成功”屏幕截图
+2020-04-29 13:30:15,351 loginView.py[line:65] INFO 退出登录
+2020-04-29 13:30:20,804 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:30:24,024 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:30:24,030 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:30:24,031 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:30:46,000 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 13:30:46,000 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:30:46,001 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:30:47,057 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:30:47,084 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:30:47,838 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:30:47,869 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:30:47,869 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 13:30:49,878 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 13:30:51,840 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:30:52,909 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:30:52,910 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:30:55,851 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:31:01,900 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 13:31:01,901 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 13:31:02,334 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:31:05,530 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:31:05,535 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:31:05,536 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:31:27,547 testLogin.py[line:34] INFO 测试登录第三个账户
+2020-04-29 13:31:27,548 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:31:27,549 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:31:28,476 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:31:28,522 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:31:28,819 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:31:29,290 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:31:29,291 loginView.py[line:29] INFO 用户名：klegc2020
+2020-04-29 13:31:31,036 loginView.py[line:31] INFO 密码：Texyf2020
+2020-04-29 13:31:32,988 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:31:34,034 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:31:34,035 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:31:37,023 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:31:41,991 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 13:31:41,991 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 13:31:42,427 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:31:45,634 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 13:31:45,719 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       8124
+  TCP    127.0.0.1:4723         127.0.0.1:61002        ESTABLISHED     8124
+  TCP    127.0.0.1:4723         127.0.0.1:61215        ESTABLISHED     8124
+  TCP    127.0.0.1:4723         127.0.0.1:61413        ESTABLISHED     8124
+  TCP    127.0.0.1:61002        127.0.0.1:4723         ESTABLISHED     11932
+  TCP    127.0.0.1:61206        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:61211        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:61214        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:61215        127.0.0.1:4723         ESTABLISHED     11932
+  TCP    127.0.0.1:61405        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:61408        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:61412        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:61413        127.0.0.1:4723         ESTABLISHED     11932
+  TCP    127.0.0.1:61627        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 13:31:45,719 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 8124 命令关闭Appium服务
+2020-04-29 13:31:45,725 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 13:31:45,725 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日13点29分36秒TestReport.html
+2020-04-29 13:41:37,059 run.py[line:33] INFO 测试开始
+2020-04-29 13:41:37,059 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:41:38,063 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:41:38,064 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 13:41:38,088 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:42:02,071 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 13:42:02,071 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:42:02,073 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:42:03,001 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:42:03,031 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:42:03,796 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:42:03,861 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:42:03,862 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 13:42:05,479 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 13:42:07,482 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:42:08,514 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:42:08,515 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:42:11,552 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:42:17,513 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 13:42:17,514 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 13:42:17,952 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:43:03,089 run.py[line:33] INFO 测试开始
+2020-04-29 13:43:03,090 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:43:03,091 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:43:03,091 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:43:25,209 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 13:43:25,209 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:43:25,214 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:43:26,204 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:43:26,239 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:43:26,972 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:43:27,008 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:43:27,008 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 13:43:28,765 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 13:43:30,791 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:43:31,803 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:43:31,803 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:43:34,751 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:43:39,751 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 13:43:39,751 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 13:43:40,185 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:43:43,461 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 13:43:43,567 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       7844
+  TCP    127.0.0.1:4723         127.0.0.1:62690        ESTABLISHED     7844
+  TCP    127.0.0.1:62457        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:62684        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:62686        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:62689        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:62690        127.0.0.1:4723         ESTABLISHED     12352
+  TCP    127.0.0.1:62899        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 13:43:43,567 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 7844 命令关闭Appium服务
+2020-04-29 13:43:43,576 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 13:43:43,576 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日13点43分03秒TestReport.html
+2020-04-29 13:49:36,819 run.py[line:33] INFO 测试开始
+2020-04-29 13:49:36,819 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:49:37,823 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:49:37,823 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 13:49:37,831 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:50:01,638 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 13:50:01,639 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:50:01,641 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:50:02,615 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:50:02,659 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:50:02,947 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:50:03,418 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:50:03,418 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 13:50:05,315 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 13:50:07,366 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:50:08,356 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:50:08,357 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:50:11,352 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:50:16,374 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 13:50:16,374 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 13:50:16,795 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:50:20,018 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 13:50:20,119 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       12756
+  TCP    127.0.0.1:4723         127.0.0.1:63393        ESTABLISHED     12756
+  TCP    127.0.0.1:63393        127.0.0.1:4723         ESTABLISHED     12516
+  TCP    127.0.0.1:63600        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 13:50:20,119 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 12756 命令关闭Appium服务
+2020-04-29 13:50:20,125 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 13:50:20,125 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日13点49分36秒TestReport.html
+2020-04-29 13:58:48,847 run.py[line:33] INFO 测试开始
+2020-04-29 13:58:48,848 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 13:58:49,851 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 13:58:49,851 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 13:58:49,886 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 13:59:12,813 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 13:59:12,813 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 13:59:12,815 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 13:59:13,834 commonFun.py[line:27] INFO 取消升级
+2020-04-29 13:59:13,861 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 13:59:14,643 commonFun.py[line:37] INFO 跳过
+2020-04-29 13:59:14,688 loginView.py[line:28] INFO 开始登录
+2020-04-29 13:59:14,688 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 13:59:16,554 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 13:59:18,562 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 13:59:19,655 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 13:59:19,655 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 13:59:21,773 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 13:59:27,074 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 13:59:27,074 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 13:59:27,504 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 13:59:30,744 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 13:59:30,839 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       12644
+  TCP    127.0.0.1:4723         127.0.0.1:64301        ESTABLISHED     12644
+  TCP    127.0.0.1:64301        127.0.0.1:4723         ESTABLISHED     12368
+  TCP    127.0.0.1:64491        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 13:59:30,839 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 12644 命令关闭Appium服务
+2020-04-29 13:59:30,845 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 13:59:30,845 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日13点58分48秒TestReport.html
+2020-04-29 14:04:42,660 run.py[line:33] INFO 测试开始
+2020-04-29 14:04:42,660 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 14:04:43,664 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 14:04:43,665 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 14:04:43,690 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 14:05:07,292 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 14:05:07,292 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 14:05:07,294 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 14:05:08,772 commonFun.py[line:27] INFO 取消升级
+2020-04-29 14:05:08,816 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 14:05:09,118 commonFun.py[line:37] INFO 跳过
+2020-04-29 14:05:09,602 loginView.py[line:28] INFO 开始登录
+2020-04-29 14:05:09,602 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 14:05:11,936 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 14:05:13,993 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 14:05:14,985 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 14:05:14,985 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 14:05:17,986 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 14:05:22,957 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 14:05:22,957 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 14:05:23,353 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 14:05:26,567 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 14:05:26,677 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       7680
+  TCP    127.0.0.1:4723         127.0.0.1:64966        ESTABLISHED     7680
+  TCP    127.0.0.1:64966        127.0.0.1:4723         ESTABLISHED     11440
+  TCP    127.0.0.1:65215        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 14:05:26,678 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 7680 命令关闭Appium服务
+2020-04-29 14:05:26,685 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 14:05:26,685 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日14点04分42秒TestReport.html
+2020-04-29 14:07:42,524 run.py[line:33] INFO 测试开始
+2020-04-29 14:07:42,525 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 14:07:43,530 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 14:07:43,531 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 14:07:43,558 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 14:08:06,544 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 14:08:06,544 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 14:08:06,545 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 14:08:07,487 commonFun.py[line:27] INFO 取消升级
+2020-04-29 14:08:07,539 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 14:08:07,701 commonFun.py[line:37] INFO 跳过
+2020-04-29 14:08:08,350 loginView.py[line:28] INFO 开始登录
+2020-04-29 14:08:08,350 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 14:08:11,063 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 14:08:14,026 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 14:08:14,668 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 14:08:14,668 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 14:08:16,698 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 14:08:22,050 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 14:08:22,050 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 14:08:22,480 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 14:09:22,322 run.py[line:33] INFO 测试开始
+2020-04-29 14:09:22,322 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 14:09:22,323 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 14:09:22,323 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 14:09:43,178 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 14:09:43,178 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 14:09:43,180 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 14:09:44,271 commonFun.py[line:27] INFO 取消升级
+2020-04-29 14:09:44,305 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 14:09:45,099 commonFun.py[line:37] INFO 跳过
+2020-04-29 14:09:45,168 loginView.py[line:28] INFO 开始登录
+2020-04-29 14:09:45,168 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 14:09:46,699 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 14:09:48,992 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 14:09:50,026 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 14:09:50,027 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 14:09:52,980 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 14:09:57,995 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 14:09:57,995 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 14:09:58,463 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 14:10:01,669 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 14:10:01,783 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       5252
+  TCP    127.0.0.1:4723         127.0.0.1:49249        ESTABLISHED     5252
+  TCP    127.0.0.1:49238        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:49241        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:49248        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:49249        127.0.0.1:4723         ESTABLISHED     3040
+  TCP    127.0.0.1:49456        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:65369        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 14:10:01,783 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 5252 命令关闭Appium服务
+2020-04-29 14:10:01,789 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 14:10:01,789 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日14点09分22秒TestReport.html
+2020-04-29 14:14:13,879 run.py[line:33] INFO 测试开始
+2020-04-29 14:14:13,879 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 14:14:14,883 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 14:14:14,884 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 14:14:14,904 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 14:14:38,545 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 14:14:38,545 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 14:14:38,547 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 14:14:39,440 commonFun.py[line:27] INFO 取消升级
+2020-04-29 14:14:39,477 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 14:14:40,236 commonFun.py[line:37] INFO 跳过
+2020-04-29 14:14:40,307 loginView.py[line:28] INFO 开始登录
+2020-04-29 14:14:40,308 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 14:14:42,102 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 14:14:44,081 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 14:14:45,089 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 14:14:45,089 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 14:14:47,172 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 14:14:52,657 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 14:14:52,657 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 14:14:53,071 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 14:14:56,245 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 14:14:56,323 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       12036
+  TCP    127.0.0.1:4723         127.0.0.1:49879        ESTABLISHED     12036
+  TCP    127.0.0.1:49879        127.0.0.1:4723         ESTABLISHED     12732
+  TCP    127.0.0.1:50098        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 14:14:56,324 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 12036 命令关闭Appium服务
+2020-04-29 14:14:56,330 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 14:14:56,330 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日14点14分13秒TestReport.html
+2020-04-29 14:29:58,998 run.py[line:33] INFO 测试开始
+2020-04-29 14:29:58,999 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 14:30:00,003 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 14:30:00,004 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 14:30:00,024 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 14:30:22,668 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 14:30:22,669 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 14:30:22,674 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 14:30:23,565 commonFun.py[line:27] INFO 取消升级
+2020-04-29 14:30:23,608 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 14:30:23,769 commonFun.py[line:37] INFO 跳过
+2020-04-29 14:30:24,401 loginView.py[line:28] INFO 开始登录
+2020-04-29 14:30:24,401 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 14:30:26,691 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 14:30:28,668 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 14:30:29,721 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 14:30:29,722 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 14:30:32,697 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 14:30:36,732 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 14:30:36,732 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 14:30:37,143 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 14:30:40,348 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 14:30:40,444 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       5640
+  TCP    127.0.0.1:4723         127.0.0.1:51591        ESTABLISHED     5640
+  TCP    127.0.0.1:51591        127.0.0.1:4723         ESTABLISHED     2244
+  TCP    127.0.0.1:51818        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 14:30:40,444 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 5640 命令关闭Appium服务
+2020-04-29 14:30:40,453 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 14:30:40,454 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日14点29分58秒TestReport.html
+2020-04-29 15:23:20,093 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 15:23:21,124 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 15:23:21,125 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 15:23:21,147 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 15:23:32,375 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 15:23:32,383 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 15:23:32,383 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 15:35:34,458 run.py[line:33] INFO 测试开始
+2020-04-29 15:35:34,459 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 15:35:34,460 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 15:35:34,461 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 15:35:56,862 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 15:35:56,957 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       1208
+  TCP    127.0.0.1:4723         127.0.0.1:58442        TIME_WAIT       0
+  TCP    127.0.0.1:58433        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:58436        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:58441        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:58474        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 15:35:56,958 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 1208 命令关闭Appium服务
+2020-04-29 15:35:56,967 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 15:35:56,967 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日15点35分34秒TestReport.html
+2020-04-29 15:36:44,402 run.py[line:33] INFO 测试开始
+2020-04-29 15:36:44,402 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 15:36:45,406 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 15:36:45,407 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 15:36:45,438 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 15:37:08,120 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 15:37:08,120 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 15:37:08,121 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 15:37:09,136 commonFun.py[line:27] INFO 取消升级
+2020-04-29 15:37:09,184 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 15:37:09,935 commonFun.py[line:37] INFO 跳过
+2020-04-29 15:37:09,982 loginView.py[line:28] INFO 开始登录
+2020-04-29 15:37:09,982 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 15:37:12,398 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 15:37:14,394 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 15:37:14,945 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 15:37:14,945 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 15:37:17,459 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 15:37:23,455 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 15:37:23,455 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 15:37:24,102 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 15:38:17,694 run.py[line:33] INFO 测试开始
+2020-04-29 15:38:17,695 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 15:38:17,696 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 15:38:17,696 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 15:38:38,415 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 15:38:38,415 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 15:38:38,418 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 15:38:39,305 commonFun.py[line:27] INFO 取消升级
+2020-04-29 15:38:39,342 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 15:38:40,072 commonFun.py[line:37] INFO 跳过
+2020-04-29 15:38:40,131 loginView.py[line:28] INFO 开始登录
+2020-04-29 15:38:40,132 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 15:38:41,736 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 15:38:43,756 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 15:38:44,804 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 15:38:44,804 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 15:38:47,729 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 15:38:52,773 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 15:38:52,773 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 15:38:53,202 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 15:38:56,381 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 15:38:56,458 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       10128
+  TCP    127.0.0.1:4723         127.0.0.1:58874        ESTABLISHED     10128
+  TCP    127.0.0.1:58565        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:58864        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:58869        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:58873        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:58874        127.0.0.1:4723         ESTABLISHED     12304
+  TCP    127.0.0.1:59103        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 15:38:56,458 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 10128 命令关闭Appium服务
+2020-04-29 15:38:56,463 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 15:38:56,464 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日15点38分17秒TestReport.html
+2020-04-29 15:40:01,271 run.py[line:33] INFO 测试开始
+2020-04-29 15:40:01,271 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 15:40:02,274 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 15:40:02,275 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 15:40:02,296 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 15:40:25,985 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 15:40:25,985 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 15:40:25,987 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 15:40:26,891 commonFun.py[line:27] INFO 取消升级
+2020-04-29 15:40:26,927 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 15:40:27,658 commonFun.py[line:37] INFO 跳过
+2020-04-29 15:40:27,690 loginView.py[line:28] INFO 开始登录
+2020-04-29 15:40:27,690 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 15:40:30,180 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 15:40:32,130 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 15:40:33,213 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 15:40:33,213 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 15:40:36,183 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 15:40:42,214 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 15:40:42,215 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 15:40:42,625 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 15:40:45,863 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 15:40:45,938 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       12640
+  TCP    127.0.0.1:4723         127.0.0.1:59230        ESTABLISHED     12640
+  TCP    127.0.0.1:58874        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:59103        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:59230        127.0.0.1:4723         ESTABLISHED     3624
+  TCP    127.0.0.1:59548        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 15:40:45,938 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 12640 命令关闭Appium服务
+2020-04-29 15:40:45,948 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 15:40:45,948 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日15点40分01秒TestReport.html
+2020-04-29 15:43:02,938 run.py[line:33] INFO 测试开始
+2020-04-29 15:43:02,938 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 15:43:03,940 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 15:43:03,940 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 15:43:03,947 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 15:43:27,836 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 15:43:27,836 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 15:43:27,838 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 15:43:28,783 commonFun.py[line:27] INFO 取消升级
+2020-04-29 15:43:28,808 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 15:43:29,565 commonFun.py[line:37] INFO 跳过
+2020-04-29 15:43:29,601 loginView.py[line:28] INFO 开始登录
+2020-04-29 15:43:29,602 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 15:43:31,850 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 15:43:33,849 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 15:43:34,871 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 15:43:34,871 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 15:43:37,837 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 15:43:42,899 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 15:43:42,900 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 15:43:43,352 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 15:43:46,495 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 15:43:46,574 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       2852
+  TCP    127.0.0.1:4723         127.0.0.1:59799        ESTABLISHED     2852
+  TCP    127.0.0.1:59799        127.0.0.1:4723         ESTABLISHED     8624
+  TCP    127.0.0.1:60043        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 15:43:46,575 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 2852 命令关闭Appium服务
+2020-04-29 15:43:46,586 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 15:43:46,586 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日15点43分02秒TestReport.html
+2020-04-29 15:46:13,020 run.py[line:33] INFO 测试开始
+2020-04-29 15:46:13,020 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 15:46:14,023 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 15:46:14,024 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 15:46:14,049 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 15:46:38,007 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 15:46:38,007 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 15:46:38,010 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 15:46:38,923 commonFun.py[line:27] INFO 取消升级
+2020-04-29 15:46:38,966 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 15:46:39,739 commonFun.py[line:37] INFO 跳过
+2020-04-29 15:46:39,807 loginView.py[line:28] INFO 开始登录
+2020-04-29 15:46:39,808 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 15:46:42,696 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 15:46:44,542 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 15:46:45,623 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 15:46:45,623 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 15:46:48,604 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 15:46:53,657 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 15:46:53,657 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 15:46:54,103 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 15:46:57,355 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 15:46:57,483 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       6960
+  TCP    127.0.0.1:4723         127.0.0.1:60419        ESTABLISHED     6960
+  TCP    127.0.0.1:60419        127.0.0.1:4723         ESTABLISHED     13240
+  TCP    127.0.0.1:60680        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 15:46:57,484 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 6960 命令关闭Appium服务
+2020-04-29 15:46:57,490 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 15:46:57,490 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日15点46分13秒TestReport.html
+2020-04-29 15:58:04,942 run.py[line:33] INFO 测试开始
+2020-04-29 15:58:04,942 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 15:58:05,946 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 15:58:05,947 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 15:58:05,984 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 15:58:29,737 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 15:58:29,738 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 15:58:29,740 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 15:58:30,709 commonFun.py[line:27] INFO 取消升级
+2020-04-29 15:58:30,746 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 15:58:30,892 commonFun.py[line:37] INFO 跳过
+2020-04-29 15:58:31,507 loginView.py[line:28] INFO 开始登录
+2020-04-29 15:58:31,508 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 15:58:33,356 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 15:58:34,532 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 15:58:35,510 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 15:58:35,511 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 15:58:38,413 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 15:58:43,349 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 15:58:43,350 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 15:58:43,751 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 15:59:02,408 run.py[line:33] INFO 测试开始
+2020-04-29 15:59:02,408 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 15:59:02,409 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 15:59:02,410 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 15:59:24,578 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 15:59:24,578 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 15:59:24,580 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 15:59:25,460 commonFun.py[line:27] INFO 取消升级
+2020-04-29 15:59:25,489 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 15:59:26,244 commonFun.py[line:37] INFO 跳过
+2020-04-29 15:59:26,290 loginView.py[line:28] INFO 开始登录
+2020-04-29 15:59:26,290 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 15:59:28,552 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 15:59:30,547 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 15:59:31,597 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 15:59:31,597 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 15:59:34,547 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 15:59:40,578 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 15:59:40,579 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 15:59:41,012 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 15:59:44,235 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 15:59:44,315 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       12160
+  TCP    127.0.0.1:4723         127.0.0.1:62719        ESTABLISHED     12160
+  TCP    127.0.0.1:62415        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:62708        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:62714        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:62718        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:62719        127.0.0.1:4723         ESTABLISHED     12504
+  TCP    127.0.0.1:63046        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 15:59:44,315 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 12160 命令关闭Appium服务
+2020-04-29 15:59:44,321 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 15:59:44,321 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日15点59分02秒TestReport.html
+2020-04-29 16:08:06,794 run.py[line:33] INFO 测试开始
+2020-04-29 16:08:06,794 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 16:08:07,798 appiumDeviceSync.py[line:51] INFO 开始启动Appium服务: Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 16:08:07,798 appiumDeviceSync.py[line:53] INFO 执行 start /b appium -a127.0.0.1 -p 4723 -bp 4724 命令开启Appium服务
+2020-04-29 16:08:07,813 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 16:08:30,697 testLogin.py[line:14] INFO 测试登录第一个账户
+2020-04-29 16:08:30,697 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 16:08:30,700 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 16:08:31,608 commonFun.py[line:27] INFO 取消升级
+2020-04-29 16:08:31,645 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 16:08:31,933 commonFun.py[line:37] INFO 跳过
+2020-04-29 16:08:32,389 loginView.py[line:28] INFO 开始登录
+2020-04-29 16:08:32,389 loginView.py[line:29] INFO 用户名：klegc2018
+2020-04-29 16:08:34,728 loginView.py[line:31] INFO 密码：Texyf2018
+2020-04-29 16:08:35,787 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 16:08:36,725 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 16:08:36,725 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 16:08:39,773 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 16:08:42,055 loginView.py[line:59] INFO 登陆成功
+2020-04-29 16:08:42,055 commonFun.py[line:97] INFO 获取“登陆成功”屏幕截图
+2020-04-29 16:08:42,512 loginView.py[line:65] INFO 退出登录
+2020-04-29 16:08:46,849 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 16:08:50,123 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 16:08:50,128 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 16:08:50,129 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 16:09:12,158 testLogin.py[line:26] INFO 测试登录第二个账户
+2020-04-29 16:09:12,158 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 16:09:12,159 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 16:09:13,222 commonFun.py[line:27] INFO 取消升级
+2020-04-29 16:09:13,258 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 16:09:14,031 commonFun.py[line:37] INFO 跳过
+2020-04-29 16:09:14,059 loginView.py[line:28] INFO 开始登录
+2020-04-29 16:09:14,059 loginView.py[line:29] INFO 用户名：klegc2019
+2020-04-29 16:09:15,785 loginView.py[line:31] INFO 密码：Texyf2019
+2020-04-29 16:09:17,820 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 16:09:19,914 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 16:09:19,915 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 16:09:22,808 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 16:09:27,852 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 16:09:27,852 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 16:09:28,273 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 16:09:31,387 myunit.py[line:10] INFO ======执行用例======
+2020-04-29 16:09:31,393 appiumDeviceSync.py[line:58] INFO Appium服务已启动  Host: 127.0.0.1  Port: 4723  BootStrap Port: 4724
+2020-04-29 16:09:31,394 desiredCaps.py[line:44] INFO 启动APP
+2020-04-29 16:09:53,652 testLogin.py[line:34] INFO 测试登录第三个账户
+2020-04-29 16:09:53,652 commonFun.py[line:114] INFO 获取csv数据
+2020-04-29 16:09:53,653 commonFun.py[line:21] INFO 检查取消按钮
+2020-04-29 16:09:54,530 commonFun.py[line:27] INFO 取消升级
+2020-04-29 16:09:54,580 commonFun.py[line:31] INFO 检查跳过按钮
+2020-04-29 16:09:55,360 commonFun.py[line:37] INFO 跳过
+2020-04-29 16:09:55,425 loginView.py[line:28] INFO 开始登录
+2020-04-29 16:09:55,425 loginView.py[line:29] INFO 用户名：klegc2020
+2020-04-29 16:09:57,993 loginView.py[line:31] INFO 密码：Texyf2020
+2020-04-29 16:09:59,947 loginView.py[line:33] INFO 点击登录按钮
+2020-04-29 16:10:01,012 loginView.py[line:47] INFO 检查登录状态
+2020-04-29 16:10:01,013 commonFun.py[line:102] INFO 检查广告弹窗
+2020-04-29 16:10:03,952 loginView.py[line:37] INFO 检查登录警告信息
+2020-04-29 16:10:08,973 loginView.py[line:55] ERROR 登陆失败
+2020-04-29 16:10:08,973 commonFun.py[line:97] INFO 获取“登陆失败”屏幕截图
+2020-04-29 16:10:09,382 myunit.py[line:15] INFO ======结束用例======
+2020-04-29 16:10:12,582 appiumDeviceSync.py[line:30] INFO netstat -ano |findstr 4723
+2020-04-29 16:10:12,683 appiumDeviceSync.py[line:33] INFO   TCP    127.0.0.1:4723         0.0.0.0:0              LISTENING       12520
+  TCP    127.0.0.1:4723         127.0.0.1:63958        ESTABLISHED     12520
+  TCP    127.0.0.1:4723         127.0.0.1:64190        ESTABLISHED     12520
+  TCP    127.0.0.1:4723         127.0.0.1:64442        ESTABLISHED     12520
+  TCP    127.0.0.1:63958        127.0.0.1:4723         ESTABLISHED     13232
+  TCP    127.0.0.1:64183        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:64186        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:64189        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:64190        127.0.0.1:4723         ESTABLISHED     13232
+  TCP    127.0.0.1:64435        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:64438        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:64441        127.0.0.1:4723         TIME_WAIT       0
+  TCP    127.0.0.1:64442        127.0.0.1:4723         ESTABLISHED     13232
+  TCP    127.0.0.1:64695        127.0.0.1:4723         TIME_WAIT       0
+
+2020-04-29 16:10:12,683 appiumDeviceSync.py[line:40] INFO 执行 taskkill -f -pid 12520 命令关闭Appium服务
+2020-04-29 16:10:12,689 appiumDeviceSync.py[line:42] INFO Appium服务已关闭
+2020-04-29 16:10:12,689 run.py[line:37] INFO 测试结束，测试报告请查看../reports/2020年04月29日16点08分06秒TestReport.html
