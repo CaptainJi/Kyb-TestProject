@@ -7,8 +7,8 @@ from time import ctime
 from server.appiumDeviceSync import *
 
 # 读取日志配置文件
-CONLOG = '../config/log.conf'
-logging.config.fileConfig(CONLOG)
+conlog = '../config/log.conf'
+logging.config.fileConfig(conlog)
 logging = logging.getLogger()
 
 # 读取capability.yaml配置文件
